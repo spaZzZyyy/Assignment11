@@ -10,11 +10,83 @@
 }
 
 div#formcol1 {
-	float:left;	
+	float:left;
 	width: 100%;
+}
+
+label {
+	margin-right: .3em;
+	width: 6em;
+	display: inline-block
+}
+
+#formcol1 li{
+	list-style: none;
+}
+
+label {
+	background-color: rgb(65, 65, 65);
+	border-radius: 10%;
+	text-align: right;
+	margin: 1%;
+	margin-left: -0.5%;
+	padding: 3px;
+	padding-right: 5px;
+}
+
+legend {
+	background-color: rgb(65, 65, 65);
+	border-radius: 5%;
+	text-align: left;
+	margin-inline-start: 5%;
+}
+
+.submit-button input[type="submit"]{
+	background-color: rgb(65, 65, 65);
+	cursor: pointer;
+	color: white;
+}
+
+.submit-button input[type="submit"]:hover{
+	background-color: rgb(145, 145, 145);
+}
+
+fieldset {
+	margin: 2%;
+	min-width: 120%;
+	border-radius: 1.5%;
+	border-color: grey;
+}
+
+.astrik{
+	color: rgb(218, 4, 4);
+}
+
+.radio-buttons {
+	text-align: left;
+	padding:  3px;
+	margin: 0.10%;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
+color: #FFF !important;
+background-color: #BB3D2F !important;}
+
+body{
+	background-color: rgb(29, 29, 29);
+	color: white;
+}
+
+input{
+	background-color: rgb(54, 54, 54);
+}
+
+#formcol1 input.reqfield {
+	background:#FF9;
 }
 
 
 
+
+
 /* end of form css */
-	
